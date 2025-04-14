@@ -17,14 +17,34 @@ O objetivo é oferecer uma interface amigável para **cadastrar**, **visualizar*
 
 ## 🧩 Estrutura do Projeto
 
-A estrutura do projeto é a seguinte:
+src/ ├── main/ │ ├── java/ │ │ ├── classes/ │ │ │ ├── ConexaoDAO.java │ │ │ ├── usuarioDAO.java │ │ │ └── usuarioDTO.java │ │ └── telas/ │ │ ├── frmCadastro.java │ │ ├── frmPrincipal.java │ │ └── login.java │ └── resources/ ├── pom.xml
 
-src/ ├── main/ │ ├── java/ │ │ ├── classes/ │ │ │ ├── ConexaoDAO.java │ │ │ ├── usuarioDAO.java │ │ │ └── usuarioDTO.java │ │ └── telas/ │ │ ├── frmCadastro.java │ │ ├── frmPrincipal.java │ │ └── login.java │ └── resources/ └── pom.xml
 
----
+📝 Funcionalidades
+ Tela de login com verificação de usuário
 
-## 🚀 Como Executar
+ Cadastro de novos usuários
 
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/GabrielAntunes95/crud-filmes-java.git
+ Listagem de usuários
+
+ Edição e exclusão de dados
+
+ Interface gráfica com Java Swing
+
+📦 Compilação
+Para gerar o .jar do projeto:
+
+mvn package
+O arquivo final estará na pasta target/.
+
+🤝 Contribuição
+Contribuições são bem-vindas!
+Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+📄 Licença
+Este projeto está sob a licença MIT.
+Veja o arquivo LICENSE para mais detalhes.
+
+👤 Autor
+Gabriel Antunes
+GitHub: @GabrielAntunes95
